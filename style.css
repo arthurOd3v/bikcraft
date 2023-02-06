@@ -1,0 +1,84 @@
+body {
+  color: white;
+  font-family: Arial;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1,
+p,
+a {
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.bik {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.header {
+  background: black;
+  height: 80px;
+  padding: 5px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.header a {
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.grid-intro {
+  display: grid;
+  gap: 20px;
+}
+
+.intro {
+  background: linear-gradient(to bottom, black 85%, white 30%);
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.tit {
+  font-size: 3.8rem;
+  width: 500px;
+}
+
+.desc {
+  font-size: 25px;
+  color: #b2b2b2;
+  width: 550px;
+}
+
+.botao {
+  place-self: start;
+  background: #f4a811;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  color: black;
+  font-weight: 750;
+}
